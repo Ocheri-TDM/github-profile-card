@@ -8,11 +8,6 @@
 
 ## Скриншот
 
-Добавьте сюда скриншот или GIF работы приложения.
-
-Пример:
-
-
 Главная:
 <img width="1897" height="1076" alt="main" src="https://github.com/user-attachments/assets/1cb64919-6cf7-4f85-b01a-c383ef5caf0e" />
 
