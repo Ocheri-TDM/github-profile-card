@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="app-card">
+        <div class="top-panel">
+            <button id="themeBtn" class="theme-btn">☀️ Светлая тема</button>
+        </div>
+
+        <h1>GitHub Profile Card</h1>
+        <p class="subtitle">Узнай больше о любом GitHub разработчике</p>
+
+        <div class="search-box">
+            <input type="text" id="usernameInput" placeholder="Первый GitHub username" />
+            <input type="text" id="usernameInput2" placeholder="Второй username для сравнения" />
+            <button id="searchBtn">Найти</button>
+        </div>
+
+        <div class="actions">
+            <select id="sortSelect">
+                <option value="updated">По обновлению</option>
+                <option value="stars">По звёздам</option>
+                <option value="created">По дате создания</option>
+            </select>
+
+            <button id="randomBtn">Случайный пользователь</button>
+        </div>
+
+        <div id="history" class="history"></div>
+
+        <p id="loading" class="loading hidden">Загружаю...</p>
+        <p id="error" class="error hidden"></p>
+
+        <div id="profile" class="profile hidden"></div>
+
+        <div id="repos" class="repos hidden">
+            <h2>☆ Последние репозитории</h2>
+            <div id="repoList"></div>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
