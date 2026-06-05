@@ -14,14 +14,17 @@
 
 ```md
 Главная:
-![Скриншот проекта](image/main.png)
+<img width="1897" height="1076" alt="main" src="https://github.com/user-attachments/assets/10b7e155-0c49-4dfe-8dd7-d94bc2b888ea" />
+
 
 
 Темная тема:
-![Скриншот проекта](image/dark.png)
+<img width="1896" height="1078" alt="dark" src="https://github.com/user-attachments/assets/3d4d5282-9d35-4e23-a757-79aad9f00b20" />
+
 
 Светлая тема:
-![Скриншот проекта](image/light.png)
+<img width="1898" height="1077" alt="light" src="https://github.com/user-attachments/assets/d15e01c8-9bc7-4968-8f10-d0537b8048b2" />
+
 ```
 
 ---
