@@ -12,22 +12,18 @@
 
 Пример:
 
-```md
+
 Главная:
-<img width="1897" height="1076" alt="main" src="https://github.com/user-attachments/assets/10b7e155-0c49-4dfe-8dd7-d94bc2b888ea" />
-
-
+<img width="1897" height="1076" alt="main" src="https://github.com/user-attachments/assets/1cb64919-6cf7-4f85-b01a-c383ef5caf0e" />
 
 Темная тема:
-<img width="1896" height="1078" alt="dark" src="https://github.com/user-attachments/assets/3d4d5282-9d35-4e23-a757-79aad9f00b20" />
 
+<img width="1896" height="1078" alt="dark" src="https://github.com/user-attachments/assets/cb5bd40a-a507-486f-ab7b-0aa9ec17b637" />
 
 Светлая тема:
-<img width="1898" height="1077" alt="light" src="https://github.com/user-attachments/assets/d15e01c8-9bc7-4968-8f10-d0537b8048b2" />
 
-```
+<img width="1898" height="1077" alt="light" src="https://github.com/user-attachments/assets/b0edf62e-8d16-4ba4-80a4-a6b9e861600a" />
 
----
 
 ## Стек
 
@@ -167,9 +163,12 @@ github-profile-card/
 │
 └── image/
     ├──  main.png
-``` ├──  light.png
+    ├──  light.png
     └──  dark.png
+```
+
 ---
+
 
 ## Обработка ошибок
 
