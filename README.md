@@ -13,7 +13,15 @@
 Пример:
 
 ```md
-![Скриншот проекта](screenshot.png)
+Главная:
+![Скриншот проекта](image/main.png)
+
+
+Темная тема:
+![Скриншот проекта](image/dark.png)
+
+Светлая тема:
+![Скриншот проекта](image/light.png)
 ```
 
 ---
@@ -50,7 +58,7 @@ https://api.github.com/users/USERNAME/repos
 1. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/<username>/github-profile-card.git
+git clone https://github.com/ocheri-tdm/github-profile-card.git
 ```
 
 2. Перейти в папку проекта:
@@ -70,7 +78,7 @@ cd github-profile-card
 Проект опубликован через GitHub Pages:
 
 ```text
-https://<username>.github.io/github-profile-card/
+https://ocheri-tdm.github.io/github-profile-card/
 ```
 
 ---
@@ -154,10 +162,10 @@ github-profile-card/
 ├── script.js
 ├── README.md
 │
-└── screenshots/
-    └── screenshot.png
-```
-
+└── image/
+    ├──  main.png
+``` ├──  light.png
+    └──  dark.png
 ---
 
 ## Обработка ошибок
@@ -194,8 +202,6 @@ github-profile-card/
 
 ## Что я узнал во время работы
 
-Во время выполнения проекта я научился работать с GitHub API и получать данные о пользователях и репозиториях через HTTP-запросы.
-
 Я изучил использование `fetch()`, `async/await` и обработку асинхронных операций в JavaScript.
 
 Также я разобрался с форматом JSON и преобразованием ответа сервера в JavaScript-объекты для дальнейшей работы с данными.
@@ -204,37 +210,10 @@ github-profile-card/
 
 Во время создания интерфейса были изучены:
 
+- создание кастомного фона
 - современные CSS-анимации
 - glassmorphism
-- neon UI эффекты
-- адаптивная верстка
-- работа с CSS-переменными
-- создание светлой и тёмной темы
 
 Проект был полностью реализован без использования фреймворков и сторонних библиотек, только средствами HTML, CSS и JavaScript.
 
----
 
-## Автор
-
-**Имя Фамилия**
-
-GitHub:
-
-```text
-https://github.com/<username>
-```
-
----
-
-## Ссылка для сдачи
-
-```text
-Задача 1. Имя Фамилия.
-
-Репо:
-https://github.com/<username>/github-profile-card
-
-Деплой:
-https://<username>.github.io/github-profile-card/
-```
